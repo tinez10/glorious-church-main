@@ -1,0 +1,28 @@
+h1 p{
+    color: yellowgreen;
+    text-decoration: overline;
+    transition: 0.2s;
+    text-align: center;
+}
+h1 p:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+body{
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 150px;
+    border: 1px solid black;
+    margin-right: 350px;
+}
+.input{
+    color: blueviolet;
+}
+.identity{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 100px;
+}
+.btn{
+   margin-left: 255px;
+}

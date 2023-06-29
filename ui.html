@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="main.css">
+<html>
+    <body>
+        <h1>
+            <p>GLORIOUS CHURCH <br> ELBURGON</p>
+        </h1>
+
+      
+        <p class="main">
+
+            <p class="identity">Username: <input class="input" type="text" placeholder="Username" ></p>
+           <!-- <p class="identity">Password : <input class="input" type="text" placeholder="Password" ></p>-->
+            
+            <p class="identity">Password: <input type="password" placeholder="Password" value="" id="identity"><br><br>
+            <input type="checkbox" onclick="myFunction()">Show Password
+            </p>
+            <script>
+            function myFunction() {
+            var x = document.getElementById("identity");
+                if (x.type === "password") {
+                    x.type = "text";
+            } else {
+                 x.type = "password";
+                    }
+            }
+            </script>
+
+
+
+            
+
+            
+
+
+            <button id="username">Log in
+                <script>
+                    let myUsername = document.getElementById('username');
+                    console.log(myUsername);
+                </script>
+            </button>
+            <button class="btn2">Cancel</button>
+
+        </p>
+    </body>
+</html>

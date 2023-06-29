@@ -1,0 +1,70 @@
+*{
+    text-align: center;
+}
+.header h1{
+    color: seagreen;
+    font-size: 70px;
+}
+.header2 h4{
+    color: seagreen;
+    font-size: 60px;
+}
+.header2 p{
+    color: seagreen;
+}
+.slideshow .comsection p{
+    color: seagreen;
+    border: solid 1px seagreen;
+    height: 600px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+.slideshow .about{
+    color: seagreen;
+    text-align: center;
+}
+.slideshow .about h5{
+    color: black;
+}
+.contact{
+    background-color: seagreen;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 400px;
+}
+.header .links{
+    color: seagreen;
+    text-decoration: none;
+}
+.image{
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+.last{
+    display: flex;
+    height: 30px;
+    margin-left: 330px;
+}
+.last .last1{
+    border: solid 1px seagreen;
+    height: 20px;
+    width: 200px;
+}
+.last .last2{
+    border: solid 1px seagreen;
+    height: 20px;
+    width: 50px;
+    background-color: seagreen;
+    color: #fff;
+    
+}
